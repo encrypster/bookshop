@@ -1,0 +1,223 @@
+body {
+  font-family: "Baloo 2", cursive;
+}
+
+/* colors */
+.color-25234d {
+  color: #25234d;
+}
+.color-subtitle {
+  color: #6422db;
+}
+.color-6A697F {
+  color: #6a697f;
+}
+.bc-color-ffc727 {
+  background-color: #ffc727;
+}
+.bc-light-green {
+  background-color: #00dadc;
+}
+
+/* font units */
+.ls-4 {
+  letter-spacing: 4px;
+}
+.pt-10 {
+  padding: 10rem 0;
+}
+
+/* border */
+.bbrr {
+  border-bottom-right-radius: 400px;
+}
+.btlr {
+  border-top-left-radius: 400px;
+}
+
+/* header shapes */
+.header__circle-one {
+  width: 450px;
+  height: 500px;
+  background: radial-gradient(circle, #783aeb 90%, #6d31de);
+  bottom: -200px;
+  left: -250px;
+}
+.header__circle-two {
+  width: 350px;
+  height: 400px;
+  background: radial-gradient(circle, #8656e0 90%, #6d31de);
+  bottom: -170px;
+  left: -180px;
+}
+.header__circle-three {
+  width: 200px;
+  height: 300px;
+  background: radial-gradient(circle, #7334e9 90%, #6d31de);
+  bottom: -150px;
+  left: -100px;
+}
+
+/* about shapes */
+.about-img-overly {
+  width: 140px;
+  height: 140px;
+  border: 45px solid #ffc727;
+  top: -60px;
+  right: 120px;
+}
+.about-circle-one {
+  width: 350px;
+  height: 350px;
+  background-color: #f9fafd;
+  right: -90px;
+  top: 20px;
+}
+.about-circle-two {
+  width: 300px;
+  height: 300px;
+  border: 80px solid #f4f5fb;
+  right: -70px;
+  top: 45px;
+}
+
+/* services card */
+.service-card {
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+
+/* testimonial shapes */
+.testimonila-top-circle {
+  width: 140px;
+  height: 140px;
+  border: 45px solid #ffc727;
+  top: -45px;
+  left: -50px;
+}
+/* left side imgs */
+.left-img-one {
+  top: 130px;
+  left: 150px;
+}
+.left-img-two {
+  top: 300px;
+  left: -40px;
+}
+.left-img-three {
+  top: 500px;
+  left: 80px;
+}
+/* right side imgs */
+.right-img-one {
+  top: 130px;
+  right: 120px;
+}
+.right-img-two {
+  top: 300px;
+  right: 0;
+}
+.right-img-three {
+  top: 510px;
+  right: 150px;
+}
+/* testimonial card */
+.testimonial-card {
+  width: 35rem;
+  border-radius: 25px;
+  background-image: url("/assets/images/qutoation.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 10px;
+  background-size: 200px;
+}
+.testimonial-card::after {
+  position: absolute;
+  content: " ";
+  width: 32rem;
+  height: 20px;
+  background-color: #fff;
+  transform: translate(4.5%, 100%);
+  bottom: 0;
+  opacity: 30%;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.testimonial-card::before {
+  position: absolute;
+  content: " ";
+  width: 30rem;
+  height: 15px;
+  background-color: #fff;
+  transform: translate(8%, 100%);
+  bottom: -20px;
+  opacity: 10%;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+/* contact shapes */
+.contact-top-circle {
+  width: 140px;
+  height: 140px;
+  border: 45px solid #00dadc;
+  top: -90px;
+  right: -70px;
+}
+.contact-circle-one {
+  width: 350px;
+  height: 350px;
+  background-color: #f9fafd;
+  left: -220px;
+  top: 20px;
+}
+.contact-circle-two {
+  width: 300px;
+  height: 300px;
+  border: 80px solid #f4f5fb;
+  left: -200px;
+  top: 45px;
+}
+/* contact card */
+.contact-card::after {
+  position: absolute;
+  content: " ";
+  width: 20rem;
+  height: 15px;
+  background-color: #fff;
+  transform: translate(4.5%, 100%);
+  bottom: 0;
+  opacity: 60%;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* transitions */
+.btn {
+  transition: ease 0.5s;
+}
+.socials-hover i {
+  transition: ease 0.5s;
+}
+
+/* hover effect */
+
+/* navbar items hover */
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffc727 !important;
+}
+/* button hover */
+.btn:hover {
+  opacity: 60%;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+/* service card hover */
+.service-card:hover {
+  box-shadow: 0 1rem 3rem rgb(0, 0, 0, 18%) !important;
+}
+/* socials hover */
+.socials-hover i:hover {
+  background-color: #00dadc !important;
+}
